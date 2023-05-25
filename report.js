@@ -5,6 +5,7 @@ var options = {
         jsonFile: 'report.json',
         output: 'result/index.html',
         reportSuiteAsScenarios: true,
+        brandTitle: 'Report'
     };
 
     reporter.generate(options);
