@@ -3,7 +3,7 @@
   "version": "0.1",
   "description": "A suckless BDD framework",
   "scripts": {
-    "report": "mkdir -p result && node report.js"
+    "report": "mkdir -p result && node report.js && sed -i '/piechart_/d' result/index.html"
   },
   "author": "laughingbiscuit",
   "license": "Apache-2.0",
