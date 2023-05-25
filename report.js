@@ -5,7 +5,7 @@ var options = {
         jsonFile: 'report.json',
         output: 'result/index.html',
         reportSuiteAsScenarios: true,
-        brandTitle: '☺',
+        brandTitle: '♫',
         columnLayout: 1
     };
 
