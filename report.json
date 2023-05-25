@@ -1,0 +1,66 @@
+[
+  {
+    "id": "try-browser",
+    "uri": "features/Browser.feature",
+    "keyword": "Feature",
+    "name": "try browser",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "try-browser;load-google-and-take-a-screenshot",
+        "keyword": "Scenario",
+        "name": "load google and take a screenshot",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I have a browser",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/browser.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 208244421
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "example",
+    "uri": "features/Hello.feature",
+    "keyword": "Feature",
+    "name": "Example",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "example;something",
+        "keyword": "Scenario",
+        "name": "Something",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I do something",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/something.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23689
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

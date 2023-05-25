@@ -1,9 +1,8 @@
 require 'open3'
-Given('I load google') do
-  stdin, stdout, stderr, wait_thr = Open3.popen3('curl localhost:3333/status')
+Given('I have a browser') do
+  stdout, stderr, status = Open3.capture3('curl localhost:4444/status')
   puts stdout
-end
-When('I take a screenshot') do  
+  expect(status.success?).to be true
 end
 
 #https://stackoverflow.com/questions/690151/getting-output-of-system-calls-in-ruby
