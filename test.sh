@@ -7,3 +7,4 @@ set -e
 # run cucumber
 rm -rf result/ && mkdir -p result
 cucumber --publish-quiet "$@" -f pretty -f json -o result/report.json
+npm run report
