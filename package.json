@@ -1,0 +1,13 @@
+{
+  "name": "framework",
+  "version": "0.1",
+  "description": "A suckless BDD framework",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "laughingbiscuit",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cucumber-html-reporter": "^7.1.0"
+  }
+}
