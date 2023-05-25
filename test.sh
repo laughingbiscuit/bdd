@@ -5,5 +5,6 @@ set -e
 # set target dir
 # TODO merge framework and project feature dirs
 # run cucumber
-cucumber --publish-quiet "$@" -f pretty -f json -o report.json
+mkdir -p result
+cucumber --publish-quiet "$@" -f pretty -f json -o result/report.json
 npm run report
